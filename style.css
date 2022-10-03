@@ -3,6 +3,9 @@
     margin: 0%;
     padding: 0%;
 }
+body {
+    background-image: url(Imagenes/pink1.jpg);
+}
 
 /*header*/
 header {
@@ -29,7 +32,9 @@ h1 {
     font-size: 50px;
     height: 100px;
     padding-top: 15px;
-    background-color: blueviolet;
+    background-image: url(Imagenes/pink4.jpg);
+    color: azure;
+    text-shadow: 0 0 9px rgb(227, 163, 224);
 }
 
 nav {
@@ -38,11 +43,12 @@ nav {
 
 nav a {
     margin-left: 70px;
-    background-color: rgb(159, 159, 199);
-    border-style: solid;
-    border-color: black;
+    background-color: blueviolet;
     font-size: 20px;
     text-decoration: none;
+    border-radius: 10px;
+    color: azure;
+    filter: drop-shadow(0 2px 5px rgba(179, 53, 152, 0.7));
 }
 
 /*buscador*/
@@ -71,9 +77,11 @@ nav a {
 
 .cards {
     width: 301px;
-    border-style: solid;
-    border-color: black;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 1px;
     height: 345px;
+    background-color: rgb(225, 191, 246);
 }
 
 .cards p,
@@ -98,9 +106,21 @@ h2 {
 
 .image_card {
     width: 290px;
-    margin-left: 2px;
+    margin-left: 5px;
     margin-top: 5px;
     height: 190px;
+    border-radius: 10px;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+
+button {
+    border-style: none;
+    height: 20px;
+    width: 100px;
+    border-radius: 12px;
+    background-color: blueviolet;
+    color: azure;
+    filter: drop-shadow(0 2px 3px rgba(123, 36, 125, 0.7));
 }
 
 /*footer*/
@@ -205,8 +225,6 @@ th {
     }
     .cards {
         width: 451px;
-        border-style: solid;
-        border-color: black;
         height: 500px;
     }
     .image_card {
@@ -237,9 +255,6 @@ th {
     }
     nav a {
         margin-left: 10px;
-        background-color: rgb(159, 159, 199);
-        border-style: solid;
-        border-color: black;
         font-size: 20px;
         text-decoration: none;
     }
@@ -302,9 +317,6 @@ th {
     }
     nav a {
         margin-left: 0px;
-        background-color: rgb(159, 159, 199);
-        border-style: solid;
-        border-color: black;
         font-size: 20px;
         text-decoration: none;
         text-align: center;
