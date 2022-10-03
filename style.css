@@ -209,9 +209,12 @@ th {
     height: 400px;
     display: flex;
     flex-direction: row;
-    border-style: solid;
-    border-color: black;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: rgb(176, 111, 169);
     align-items: center;
+    border-radius: 59px;
+    filter: drop-shadow(0 2px 3px rgba(123, 36, 125, 0.7));
 }
 .description {
     display: flex;
