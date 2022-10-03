@@ -50,6 +50,10 @@ nav a {
     color: azure;
     filter: drop-shadow(0 2px 5px rgba(179, 53, 152, 0.7));
 }
+nav a:hover {
+    background-color: rgb(219, 193, 244);
+    color: rgb(93, 18, 164);
+}
 
 /*buscador*/
 .buscador {
@@ -121,6 +125,10 @@ button {
     background-color: blueviolet;
     color: azure;
     filter: drop-shadow(0 2px 3px rgba(123, 36, 125, 0.7));
+}
+button:hover {
+    background-color: rgb(219, 193, 244);
+    color: rgb(93, 18, 164);
 }
 
 /*footer*/
