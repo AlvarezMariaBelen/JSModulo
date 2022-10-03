@@ -24,7 +24,8 @@ header {
 }
 
 h1 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 50px;
     height: 100px;
     padding-top: 15px;
@@ -123,11 +124,11 @@ footer p {
 }
 
 /*contact*/
-form {
+.formu {
     display: flex;
     flex-direction: column;
-    padding-left: 750px;
-    padding-top: 100px;
+    align-items: center;
+    width: 500px;
 }
 
 label {
@@ -142,10 +143,6 @@ form p {
 .text-input {
     width: 400px;
     height: 30px;
-}
-
-.submit {
-    margin-left: 1100px;
 }
 
 /*stats*/
@@ -188,4 +185,142 @@ th {
 .description {
     display: flex;
     flex-direction: column;
+}
+
+/*responsive*/
+@media screen and (max-width: 1200px) {
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+    }
+    .cards {
+        margin: 30px;
+    }
+    .cards {
+        width: 451px;
+        border-style: solid;
+        border-color: black;
+        height: 500px;
+    }
+    .image_card {
+        width: 390px;
+        margin-left: 25px;
+        margin-top: 15px;
+        height: 290px;
+    }
+
+}
+
+@media screen and (max-width: 1075px) {
+    .buscador {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    label {
+        padding-right: 2px;
+        padding-left: 25px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    nav {
+        padding-right: 10px;
+    }
+    nav a {
+        margin-left: 10px;
+        background-color: rgb(159, 159, 199);
+        border-style: solid;
+        border-color: black;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .buscador {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    label {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    header {
+        height: 200px;
+    }
+    .logo_nav {
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        padding-bottom: 15px;
+
+    }
+    .logo {
+        width: 150px;
+        height: 35px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .buscador {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    input {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .logo_nav {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .logo {
+        margin-left: 0px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding-right: none;
+
+    }
+    nav a {
+        margin-left: 0px;
+        background-color: rgb(159, 159, 199);
+        border-style: solid;
+        border-color: black;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        width: 200px;
+    }
+    .buscador {
+        padding-top: 100px;
+    }
+    table {
+        padding-top: 150px;
+    }
+    .formu {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
 }
