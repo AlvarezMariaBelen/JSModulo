@@ -196,15 +196,19 @@ th {
     align-items: center;
     padding-top: 30px;
 }
-.cards2 {
-    width: 500px;
-    height: 300px;
+.detailcard {
+    width: 600px;
+    height: 400px;
     display: flex;
     flex-direction: row;
+    border-style: solid;
+    border-color: black;
+    align-items: center;
 }
 .description {
     display: flex;
     flex-direction: column;
+    padding-left:20px;
 }
 
 /*responsive*/
