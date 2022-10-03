@@ -3,10 +3,12 @@
     margin: 0%;
     padding: 0%;
 }
+
 /*header*/
 header {
     height: 200px;
 }
+
 .logo_nav {
     display: flex;
     flex-direction: row;
@@ -14,11 +16,13 @@ header {
     justify-content: space-between;
     padding-top: 10px;
 }
+
 .logo {
     width: 150px;
     height: 35px;
     margin-left: 10px;
 }
+
 h1 {
     text-align: center;
     font-size: 50px;
@@ -26,9 +30,11 @@ h1 {
     padding-top: 15px;
     background-color: blueviolet;
 }
+
 nav {
     padding-right: 40px;
 }
+
 nav a {
     margin-left: 70px;
     background-color: rgb(159, 159, 199);
@@ -37,6 +43,7 @@ nav a {
     font-size: 20px;
     text-decoration: none;
 }
+
 /*buscador*/
 .buscador {
     display: flex;
@@ -45,6 +52,7 @@ nav a {
     padding-bottom: 20px;
     padding-top: 25px;
 }
+
 /*main*/
 .section1 {
     display: flex;
@@ -52,49 +60,68 @@ nav a {
     justify-content: space-around;
     padding-top: 30px;
 }
+
 .section2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
 }
+
 .cards {
     width: 301px;
     border-style: solid;
     border-color: black;
     height: 345px;
 }
-.cards p, h2 {
+
+.cards p,
+h2 {
     text-align: center;
 }
+
 .card p {
     padding-top: 15px;
 }
+
 h2 {
     margin-bottom: 10px;
 }
+
 .price {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
 }
+
 .image_card {
     width: 290px;
     margin-left: 2px;
     margin-top: 5px;
     height: 190px;
 }
+
 /*footer*/
 .redes {
     width: 40px;
     height: 40px;
 }
+
 footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 100px;
 }
+footer p {
+    font-size: 30px;
+    padding-right: 20px;
+}
+.iconos_redes {
+    padding-left: 20px;
+}
+
 /*contact*/
 form {
     display: flex;
@@ -102,18 +129,63 @@ form {
     padding-left: 750px;
     padding-top: 100px;
 }
+
 label {
     padding-right: 30px;
     padding-left: 50px;
 }
+
 form p {
     font-size: x-large;
 }
+
 .text-input {
     width: 400px;
     height: 30px;
 }
+
 .submit {
     margin-left: 1100px;
 }
 
+/*stats*/
+table {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    empty-cells: show;
+    border-collapse: collapse;
+}
+
+tr,
+td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+td {
+    height: 30px;
+}
+
+th {
+    float: left;
+}
+
+/*details*/
+.detailsmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.cards2 {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+}
