@@ -12,6 +12,7 @@ for (let i = 0; i < data.length; i++){
             <h2>${data[i].name}</h2>
             <p>${data[i].description}</p>
             <p>${data[i].price}</p>
+            <a href="details.html"><button>More details</button></a>
         </div>
         `
         container.appendChild(div)
