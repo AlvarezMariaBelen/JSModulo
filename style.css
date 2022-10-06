@@ -65,9 +65,11 @@ nav a:hover {
 }
 
 /*main*/
+
 #container {
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 .cards {
     width: 200px;
@@ -76,62 +78,17 @@ nav a:hover {
     border-radius: 9px;
     border-style: solid;
     border-color: blueviolet;
+    margin: 5px;
+}
+.cards>p {
+     padding-top: 8px;
+}
+.price {
+    font-weight: bold;
 }
 img {
-    width: 195px;
+    width: 194px;
 }
-/*
-.section1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 30px;
-}
-
-.section2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 30px;
-}*/
-
-/*.cards {
-    width: 301px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-width: 1px;
-    height: 345px;
-    background-color: rgb(225, 191, 246);
-}
-
-.cards p,
-h2 {
-    text-align: center;
-}
-
-.cards p {
-    padding-top: 15px;
-}
-
-h2 {
-    margin-bottom: 10px;
-}
-
-/*.price {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 30px;
-}*/
-
-/*.img {
-    width: 290px;
-    margin-left: 5px;
-    margin-top: 5px;
-    height: 190px;
-    border-radius: 10px;
-    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
-}*/
 
 button {
     border-style: none;
@@ -141,6 +98,7 @@ button {
     background-color: blueviolet;
     color: azure;
     filter: drop-shadow(0 2px 3px rgba(123, 36, 125, 0.7));
+    float: right;
 }
 button:hover {
     background-color: rgb(219, 193, 244);
@@ -212,9 +170,7 @@ td {
 th {
     float: left;
 }
-
 /*details*/
-/*
 .detailsmain {
     display: flex;
     flex-direction: column;
@@ -237,9 +193,9 @@ th {
     display: flex;
     flex-direction: column;
     padding-left:20px;
-}*/
+}
 
-/*responsive*//*
+/*responsive*/
 @media screen and (max-width: 1200px) {
     .section1 {
         display: flex;
