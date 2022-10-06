@@ -65,6 +65,22 @@ nav a:hover {
 }
 
 /*main*/
+#container {
+    display: flex;
+    flex-direction: row;
+}
+.cards {
+    width: 200px;
+    height: 320px;
+    background-color: rgb(225, 191, 246);
+    border-radius: 9px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+img {
+    width: 195px;
+}
+/*
 .section1 {
     display: flex;
     flex-direction: row;
@@ -77,9 +93,9 @@ nav a:hover {
     flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
-}
+}*/
 
-.cards {
+/*.cards {
     width: 301px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -93,7 +109,7 @@ h2 {
     text-align: center;
 }
 
-.card p {
+.cards p {
     padding-top: 15px;
 }
 
@@ -101,21 +117,21 @@ h2 {
     margin-bottom: 10px;
 }
 
-.price {
+/*.price {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
-}
+}*/
 
-.image_card {
+/*.img {
     width: 290px;
     margin-left: 5px;
     margin-top: 5px;
     height: 190px;
     border-radius: 10px;
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
-}
+}*/
 
 button {
     border-style: none;
@@ -198,6 +214,7 @@ th {
 }
 
 /*details*/
+/*
 .detailsmain {
     display: flex;
     flex-direction: column;
@@ -220,9 +237,9 @@ th {
     display: flex;
     flex-direction: column;
     padding-left:20px;
-}
+}*/
 
-/*responsive*/
+/*responsive*//*
 @media screen and (max-width: 1200px) {
     .section1 {
         display: flex;
