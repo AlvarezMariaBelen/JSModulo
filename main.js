@@ -1,16 +1,17 @@
 let container = document.getElementById('container')
 for (let i = 0; i < data.events.length; i++){
     let div = document.createElement('div')
-    div.className = 'cards'
+    div.className = 'card'
     div.innerHTML += 
        `
-        <div class="cards">
+       <div class="cards">
             <img src="${data.events[i].image}" />
             <h2>${data.events[i].name}</h2>
             <p>${data.events[i].description}</p>
-            <p>${data.events[i].price}</p>
+            <p class="price">Price: ${data.events[i].price}</p>
             <a href="details.html"><button>More details</button></a>
         </div>
         `
         container.appendChild(div)
 }
+        
