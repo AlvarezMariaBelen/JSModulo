@@ -1,17 +1,14 @@
-console.log(data)
 let container = document.getElementById('container')
-console.log(container)
-
-for (let i = 0; i < data.length; i++){
+for (let i = 0; i < data.events.length; i++){
     let div = document.createElement('div')
-    div.className = 'carta'
+    div.className = 'cards'
     div.innerHTML += 
        `
-        <div>
-            <img src="${data[i].image}" />
-            <h2>${data[i].name}</h2>
-            <p>${data[i].description}</p>
-            <p>${data[i].price}</p>
+        <div class="cards">
+            <img src="${data.events[i].image}" />
+            <h2>${data.events[i].name}</h2>
+            <p>${data.events[i].description}</p>
+            <p>${data.events[i].price}</p>
             <a href="details.html"><button>More details</button></a>
         </div>
         `
